@@ -1,0 +1,41 @@
+body {
+  background-color: #E6E6FA;
+  font-family: sans-serif; /* Added for better consistency */
+}
+
+h1, h2 {
+  font-family: "Poppins", sans-serif; /* Assuming Poppins is available */
+  color: purple;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav h3 {
+    display: inline-block; /* Keep the links on one line */
+    margin-right: 10px; /* Add some spacing between links */
+}
+
+
+#searchInput {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#searchResults {
+  list-style: none;
+  padding: 0;
+}
+
+#searchResults li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+#searchResults li:hover {
+  background-color: #f0f0f0;
+}
